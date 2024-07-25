@@ -13,26 +13,7 @@ st.markdown("""
         margin: 0;
         padding: 0;
     }
-    .paper {
-        position: bottom;
-        top: 50%;
-        right: 50%;
-        transform: translate(-50%, -50%);
-        width: 200px;
-        height: 300px;
-        background-color: #fff;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        /* Add other paper styling (e.g., lines, folds) */
-        animation: floatPaper 3s infinite alternate;
-    }
-    @keyframes floatPaper {
-        0% {
-            transform: translate(-50%, -50%) rotate(0deg);
-        }
-        100% {
-            transform: translate(-50%, -50%) rotate(5deg);
-        }
-    }
+    
 </style>
 """, unsafe_allow_html=True)
 
