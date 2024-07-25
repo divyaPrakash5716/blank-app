@@ -1,4 +1,4 @@
- import streamlit as st
+import streamlit as st
 
 # Set the title of the app
 st.set_page_config(page_title="Jailxerox", layout="wide")
