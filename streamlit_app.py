@@ -14,9 +14,9 @@ st.markdown("""
         padding: 0;
     }
     .paper {
-        position: absolute;
+        position: bottom;
         top: 50%;
-        left: 50%;
+        right: 50%;
         transform: translate(-50%, -50%);
         width: 200px;
         height: 300px;
