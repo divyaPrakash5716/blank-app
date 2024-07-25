@@ -1,53 +1,51 @@
 import streamlit as st
 
 st.title("Jailxerox")
-st.write( "Transforming digital into tangible with every print."
+st.write( "Transforming digital into tangible with every privnt."
 )
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jailxerox - Your Trusted Xerox Shop</title>
-    <link rel="stylesheet" href="{% static 'xerox/styles.css' %}">
-</head>
-<body>
-    <header>
-        <h1>Jailxerox</h1>
-        <p>Your Trusted Xerox Shop</p>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
 
-    <main>
-        <section id="services">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Xerox</li>
-                <li>Printing</li>
-                <li>Scanning</li>
-                <li>Binding</li>
-                <li>Lamination</li>
-            </ul>
-        </section>
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-    </main>
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
 
-    <footer>
-        <p>&copy; 2024 Jailxerox. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color:
+
